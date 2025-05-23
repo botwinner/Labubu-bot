@@ -1,8 +1,8 @@
 import axios from 'axios';
 let previousCommitSHA = '';
 let previousUpdatedAt = '';
-const owner = 'AnthonyVentas';
-const repo = 'Nekotina';
+const owner = 'Stmanía';
+const repo = 'Manía';
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   async function checkRepoUpdates() {
     try {
